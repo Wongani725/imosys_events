@@ -1,0 +1,324 @@
+[2026-01-07 10:19:53] local.INFO: Detected N+1 Query  
+[2026-01-07 10:19:53] local.INFO: Model: App\Models\Bookers
+Relation: attireColor
+Num-Called: 3
+Call-Stack:
+#19 /storage/framework/views/258097639b15731eabbd6b8adc36821073d72baa.php:41
+#21 /vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+#22 /vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+#23 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:69
+#24 /vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+#25 /vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+#26 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+#27 /vendor/laravel/framework/src/Illuminate/View/View.php:139
+#28 /vendor/laravel/framework/src/Illuminate/View/View.php:122
+#29 /vendor/laravel/framework/src/Illuminate/View/View.php:91
+#30 /vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+#31 /vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+#32 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:820
+#33 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:789
+#34 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#36 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#39 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#40 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#41 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#42 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#43 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#44 /app/Http/Middleware/VerifyCsrfToken.php:25
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#46 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#47 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#48 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#49 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+  
+[2026-01-07 10:21:36] local.INFO: Detected N+1 Query  
+[2026-01-07 10:21:36] local.INFO: Model: App\Models\Bookers
+Relation: attireSize
+Num-Called: 3
+Call-Stack:
+#19 /storage/framework/views/258097639b15731eabbd6b8adc36821073d72baa.php:40
+#21 /vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+#22 /vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+#23 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:69
+#24 /vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+#25 /vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+#26 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+#27 /vendor/laravel/framework/src/Illuminate/View/View.php:139
+#28 /vendor/laravel/framework/src/Illuminate/View/View.php:122
+#29 /vendor/laravel/framework/src/Illuminate/View/View.php:91
+#30 /vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+#31 /vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+#32 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:820
+#33 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:789
+#34 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#36 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#39 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#40 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#41 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#42 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#43 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#44 /app/Http/Middleware/VerifyCsrfToken.php:25
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#46 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#47 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#48 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#49 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+  
+[2026-01-07 10:21:36] local.INFO: Model: App\Models\Bookers
+Relation: attireColor
+Num-Called: 3
+Call-Stack:
+#19 /storage/framework/views/258097639b15731eabbd6b8adc36821073d72baa.php:41
+#21 /vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+#22 /vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+#23 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:69
+#24 /vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+#25 /vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+#26 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+#27 /vendor/laravel/framework/src/Illuminate/View/View.php:139
+#28 /vendor/laravel/framework/src/Illuminate/View/View.php:122
+#29 /vendor/laravel/framework/src/Illuminate/View/View.php:91
+#30 /vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+#31 /vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+#32 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:820
+#33 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:789
+#34 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#36 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#39 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#40 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#41 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#42 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#43 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#44 /app/Http/Middleware/VerifyCsrfToken.php:25
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#46 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#47 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#48 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#49 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+  
+[2026-01-07 10:22:02] local.INFO: Detected N+1 Query  
+[2026-01-07 10:22:02] local.INFO: Model: App\Models\Bookers
+Relation: attireSize
+Num-Called: 3
+Call-Stack:
+#19 /storage/framework/views/258097639b15731eabbd6b8adc36821073d72baa.php:40
+#21 /vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+#22 /vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+#23 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:69
+#24 /vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+#25 /vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+#26 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+#27 /vendor/laravel/framework/src/Illuminate/View/View.php:139
+#28 /vendor/laravel/framework/src/Illuminate/View/View.php:122
+#29 /vendor/laravel/framework/src/Illuminate/View/View.php:91
+#30 /vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+#31 /vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+#32 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:820
+#33 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:789
+#34 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#36 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#39 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#40 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#41 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#42 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#43 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#44 /app/Http/Middleware/VerifyCsrfToken.php:25
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#46 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#47 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#48 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#49 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+  
+[2026-01-07 10:22:02] local.INFO: Model: App\Models\Bookers
+Relation: attireColor
+Num-Called: 3
+Call-Stack:
+#19 /storage/framework/views/258097639b15731eabbd6b8adc36821073d72baa.php:41
+#21 /vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:108
+#22 /vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:58
+#23 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:69
+#24 /vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:61
+#25 /vendor/facade/ignition/src/Views/Engines/CompilerEngine.php:37
+#26 /vendor/livewire/livewire/src/ComponentConcerns/RendersLivewireComponents.php:35
+#27 /vendor/laravel/framework/src/Illuminate/View/View.php:139
+#28 /vendor/laravel/framework/src/Illuminate/View/View.php:122
+#29 /vendor/laravel/framework/src/Illuminate/View/View.php:91
+#30 /vendor/laravel/framework/src/Illuminate/Http/Response.php:69
+#31 /vendor/laravel/framework/src/Illuminate/Http/Response.php:35
+#32 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:820
+#33 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:789
+#34 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#36 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#39 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#40 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#41 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#42 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#43 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#44 /app/Http/Middleware/VerifyCsrfToken.php:25
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#46 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#47 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#48 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#49 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+  
+[2026-01-07 10:41:03] local.INFO: Detected N+1 Query  
+[2026-01-07 10:41:03] local.INFO: Model: App\Models\Bookers
+Relation: attireColor
+Num-Called: 3
+Call-Stack:
+#19 /app/Http/Controllers/ReportController.php:1143
+#20 /vendor/laravel/framework/src/Illuminate/Routing/Controller.php:54
+#21 /vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:45
+#22 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:262
+#23 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:205
+#24 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#25 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#26 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#27 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#28 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#29 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#30 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#31 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#32 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#33 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#34 /app/Http/Middleware/VerifyCsrfToken.php:25
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#36 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#39 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+#40 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#41 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php:37
+#42 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#43 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php:67
+#44 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+#46 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:723
+#47 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:698
+#48 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:662
+#49 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:651
+  
+[2026-01-07 10:41:03] local.INFO: Model: App\Models\Bookers
+Relation: attireSize
+Num-Called: 3
+Call-Stack:
+#19 /app/Http/Controllers/ReportController.php:1144
+#20 /vendor/laravel/framework/src/Illuminate/Routing/Controller.php:54
+#21 /vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:45
+#22 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:262
+#23 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:205
+#24 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#25 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#26 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#27 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#28 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#29 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#30 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#31 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#32 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#33 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#34 /app/Http/Middleware/VerifyCsrfToken.php:25
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#36 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#39 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+#40 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#41 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php:37
+#42 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#43 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php:67
+#44 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+#46 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:723
+#47 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:698
+#48 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:662
+#49 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:651
+  
+[2026-01-07 10:42:35] local.INFO: Detected N+1 Query  
+[2026-01-07 10:42:35] local.INFO: Model: App\Models\Bookers
+Relation: attireColor
+Num-Called: 3
+Call-Stack:
+#19 /app/Http/Controllers/ReportController.php:1143
+#20 /vendor/laravel/framework/src/Illuminate/Routing/Controller.php:54
+#21 /vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:45
+#22 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:262
+#23 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:205
+#24 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#25 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#26 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#27 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#28 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#29 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#30 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#31 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#32 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#33 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#34 /app/Http/Middleware/VerifyCsrfToken.php:25
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#36 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#39 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+#40 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#41 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php:37
+#42 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#43 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php:67
+#44 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+#46 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:723
+#47 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:698
+#48 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:662
+#49 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:651
+  
+[2026-01-07 10:42:35] local.INFO: Model: App\Models\Bookers
+Relation: attireSize
+Num-Called: 3
+Call-Stack:
+#19 /app/Http/Controllers/ReportController.php:1144
+#20 /vendor/laravel/framework/src/Illuminate/Routing/Controller.php:54
+#21 /vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php:45
+#22 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:262
+#23 /vendor/laravel/framework/src/Illuminate/Routing/Route.php:205
+#24 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:721
+#25 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:128
+#26 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:30
+#27 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#28 /vendor/laravel/framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:58
+#29 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#30 /vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php:50
+#31 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#32 /vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php:44
+#33 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#34 /app/Http/Middleware/VerifyCsrfToken.php:25
+#35 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#36 /vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:49
+#37 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#38 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:121
+#39 /vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php:64
+#40 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#41 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php:37
+#42 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#43 /vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php:67
+#44 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:167
+#45 /vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+#46 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:723
+#47 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:698
+#48 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:662
+#49 /vendor/laravel/framework/src/Illuminate/Routing/Router.php:651
+  
